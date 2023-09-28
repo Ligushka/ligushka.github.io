@@ -1,0 +1,21 @@
+---
+layout: default
+title: Studio Albums
+---
+<td style="width: 170px; vertical-align: top;">
+    <img src="/assets/images/beauty_back_cover.jpg">
+</td>
+<td style="width: 521px; vertical-align: top;">
+    <h1 style="font-family: 'Arial Black', sans-serif; letter-spacing: 1px; text-align: center;">STUDIO ALBUMS</h1>
+    <h2 style="text-align: center;">
+        {% assign sorted = site.studio | sort: 'order' %}
+        {% for studio in sorted %}
+                <h2 style="text-align: center;"><a href="{{ studio.url }}">{{ studio.title }}</a></h2>
+            {% endfor %}
+    <h3>What Rob Is remembers:</h3>
+    Between 1989 and 1993, The Tone Unknown laid down three full length albums and one EP. I use the old jargon of records because that was the time.
+    We never did get anything on vinyl, however. By the time we could afford to put out a record as opposed to tapes, manufacturing prices became low enough for underground bands like us to produce CDs in small runs, so A Beauty Thing ended up on CD.
+    <br>
+    <br>
+    Vinyl got its name because a rumor started circulating that we were recording a record and we were finally going to put out something on "vinyl", so we went we with that and said we would be "releasing Vinyl" soon. Smart asses, always the smart asses...
+</td>

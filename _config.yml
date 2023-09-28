@@ -1,0 +1,21 @@
+collections:
+    live:
+        output: true
+    studio:
+        output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "live"
+    values:
+      layout: "liverec"
+  - scope:
+      path: ""
+      type: "studio"
+    values:
+      layout: "studio"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

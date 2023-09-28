@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Studio Albums
+  link: /studio.html
+- name: Live Recordings
+  link: /live.html
+- name: History
+  link: /history.html
+- name: Photos
+  link: /photos.html
