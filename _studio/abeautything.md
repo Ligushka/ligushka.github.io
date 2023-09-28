@@ -2,6 +2,19 @@
 title: A Beauty Thing
 albumyear: 
 order: 4
+tracks:
+    - Death Sexy
+    - Believe
+    - Shattered Sadness
+    - Wish
+    - Underdog
+    - Leah's Song
+    - Sifted
+    - Sacrifice
+    - Silly Putty
+    - Vicious Cycle
+    - Cartoon Song
+    - Picnic World
 ---
 The CD. It actually happened. Trent and Greg left the band and we kept going. Some felt it wasn't the Tone without horns, but Henry, Jorge and Rob had written the vast majority of the songs, and that's what we thought made it the Tone. It definitely wasn't the same. But the change was necessary, and we ended up with a great album and some great songs because we kept going.
 
@@ -12,18 +25,3 @@ The art for the CD was supplied by Terry Towery. This is the back of the booklet
 Soundgarden ended up ripping us off ;-) on the art thing-- if you check out the booklet of Superunknown, you'll see they used the same idea, except they had money for color. Anyway, our photography was more interesting!
 
 How many times were the Twin Towers incidently or accidentally photographed?
-
-**Tracks:**
-
-1. Death Sexy
-2. Believe
-3. Shattered Saddness
-4. Wish
-5. Underdog
-6. Leah's Song
-7. Sifted
-8. Sacrifice
-9. Silly Putty
-10. Vicious Cycle
-11. Cartoon Song
-12. Picnic World

@@ -12,7 +12,13 @@ layout: default
 <tr>
     <td>
         {{ content }}
+
+        {% include tracklist.html %}
         
+        {% if page.audio %}
+            {% include playlist.html %}
+        {% endif %}
+        <script type="text/javascript" src="/assets/js/playlist.js"></script>
         <div style="text-align: center; font-weight: bold;"><a href="/studio.html">Back to Studio Albums</a></div>
     </td>
 </tr>
