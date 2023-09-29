@@ -8,7 +8,6 @@ title: Studio Albums
 </td>
 <td style="width: 521px; vertical-align: top;">
     <h1 style="font-family: 'Arial Black', sans-serif; letter-spacing: 1px; text-align: center;">STUDIO ALBUMS</h1>
-    <h2 style="text-align: center;">
         {% assign sorted = site.studio | sort: 'order' %}
         {% for studio in sorted %}
                 <h2 style="text-align: center;"><a href="{{ studio.url }}">{{ studio.title }}</a></h2>
