@@ -15,4 +15,8 @@ tracks:
     - Doghouse
     - Krishna
     - Walk Away
+audiourl: https://media.dmlive.wiki/stream/ttu/burn/
+audioformat: mp3
+downloadurl: https://media.dmlive.wiki/downloads/ttu/Burn.zip
+downloadbitrate: MP3 ~256kbps VBR
 ---

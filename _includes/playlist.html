@@ -1,8 +1,8 @@
 <div class="container">
 
   <audio id="audio" preload="none" tabindex="0">
-			{% for audio in page.audio %}
-				<source src="{{ page.audio[forloop.index0] }}" data-track-number="{{ forloop.index }}" />
+			{% for tracks in page.tracks %}
+				<source src="{{ page.audiourl }}{{ forloop.index | prepend: '00' | slice: -2, 2 }}.{{ page.audioformat }}" data-track-number="{{ forloop.index }}" />
 			{% endfor %}
     	Your browser does not support HTML5 audio.
     </audio>
@@ -47,7 +47,7 @@
 
   <div class="play-list">
 
-    {% for audio in page.audio %}
+    {% for tracks in page.tracks %}
   <div class="play-list-row" data-track-row="{{ forloop.index }}">
       <div class="small-toggle-btn">
         <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
@@ -56,7 +56,7 @@
         {{ forloop.index }}.
       </div>
       <div class="track-title">
-        <a class="playlist-track" href="#" data-play-track="{{ forloop.index }}">Track {{ forloop.index }}</a>
+        <a class="playlist-track" href="#" data-play-track="{{ forloop.index }}">{{ page.tracks[forloop.index0] }}</a>
       </div>
 
     </div>

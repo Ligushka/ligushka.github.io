@@ -17,4 +17,8 @@ tracks:
     - Never
     - Chiquita
     - Politics Of Ecstasy
+audiourl: https://media.dmlive.wiki/stream/ttu/6hungrymen/
+audioformat: mp3
+downloadurl: https://media.dmlive.wiki/downloads/ttu/6%20Hungry%20Men.zip
+downloadbitrate: MP3 128kbps
 ---

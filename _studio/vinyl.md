@@ -9,6 +9,10 @@ tracks:
     - Dark Place
     - Liar
     - Hardcore
+audiourl: https://media.dmlive.wiki/stream/ttu/vinyl/
+audioformat: mp3
+downloadurl: https://media.dmlive.wiki/downloads/ttu/Vinyl.zip
+downloadbitrate: MP3 128kbps
 ---
 Vinyl was the first recording we did with Mike and Greg. Mike had probably been with the band about a year by now and Greg had been jamming and sitting in with us for months. Greg would come to shows with his horn and sit in and we liked what he was doing, so we started to invite him to rehearsals and finally we invited him to officially be in the band.
 

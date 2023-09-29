@@ -15,6 +15,10 @@ tracks:
     - Vicious Cycle
     - Cartoon Song
     - Picnic World
+audiourl: https://media.dmlive.wiki/stream/ttu/abeautything/
+audioformat: mp3
+downloadurl: https://media.dmlive.wiki/downloads/ttu/A%20Beauty%20Thing.zip
+downloadbitrate: MP3 128kbps
 ---
 The CD. It actually happened. Trent and Greg left the band and we kept going. Some felt it wasn't the Tone without horns, but Henry, Jorge and Rob had written the vast majority of the songs, and that's what we thought made it the Tone. It definitely wasn't the same. But the change was necessary, and we ended up with a great album and some great songs because we kept going.
 
