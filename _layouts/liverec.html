@@ -13,7 +13,17 @@ layout: default
     <td>
         {{ content }}
 
+        {% include tracklist.html %}
+        
+        {% if page.audio %}
+            {% include playlist.html %}
+            <script type="text/javascript" src="/assets/js/playlist.js"></script>
+        {% endif %}
+
+        {% if page.lineup %}
+            {% include lineup.html %}
+        {% endif %}
+
         <div style="text-align: center; font-weight: bold;"><a href="/live.html">Back to Live Recordings</a></div>
     </td>
-    
 </tr>

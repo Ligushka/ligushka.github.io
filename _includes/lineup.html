@@ -1,0 +1,7 @@
+<p><strong>Line up:</strong></p>
+
+<ul>
+    {% for lineup in page.lineup %}
+    <li>{{ page.lineup[forloop.index0] }}</li>
+    {% endfor %}
+</ul>
