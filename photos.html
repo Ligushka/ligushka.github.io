@@ -2,12 +2,14 @@
 layout: default
 title: Photos
 ---
-<td style="width: 691px; vertical-align: top; text-align: center;">
-    {% for image in site.data.photos %}
-        <img src="/assets/images/photos/{{ image.name }}" {% if image.text %}alt="{{ image.text }}"{% else %}alt="No information for this photo."{% endif %}>
-        {% if image.text %}
-            <h2 class="photos">{{ image.text }}</h2>
-        {% endif %}
-        <br>
-    {% endfor %}
-</td>
+<tr>
+    <td style="width: 691px; vertical-align: top; text-align: center;">
+        {% for image in site.data.photos %}
+            <img src="/assets/images/photos/{{ image.name }}" {% if image.text %}alt="{{ image.text }}"{% else %}alt="No information for this photo."{% endif %}>
+            {% if image.text %}
+                <h2 class="photos">{{ image.text }}</h2>
+            {% endif %}
+            <br>
+        {% endfor %}
+    </td>
+</tr>
