@@ -12,14 +12,14 @@ table.center {
 }
 
 td {
-    font-family: "Arial", "Helvetica", "sans-serif"; 
+    font-family: "Arial", "Helvetica", sans-serif; 
     font-size: 11px;
     line-height: 13pt;
     color: #222222;
 }
 
 td a { 
-    font-family: "Arial", "Helvetica", "sans-serif"; 
+    font-family: "Arial", "Helvetica", sans-serif; 
     font-size: 11px;
     line-height: 13pt; 
     color: #BB0000;
@@ -28,6 +28,13 @@ td a {
 
 td a:visited {  
     color: #666666;
+}
+
+h2.photos {
+    font-family: "Arial", "Helvetica", sans-serif; 
+    font-size: 11px;
+    line-height: 13pt;
+    color: #222222;
 }
 
 #navbar {
