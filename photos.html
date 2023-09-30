@@ -4,6 +4,8 @@ title: Photos
 ---
 <tr>
     <td style="width: 691px; vertical-align: top; text-align: center;">
+        <h1 style="font-family: 'Arial Black', sans-serif; letter-spacing: 1px; text-align: center;">PHOTOS</h1>
+        <br>
         {% for image in site.data.photos %}
             <img src="/assets/images/photos/{{ image.name }}" {% if image.text %}alt="{{ image.text }}"{% else %}alt="No information for this photo."{% endif %}>
             {% if image.text %}
