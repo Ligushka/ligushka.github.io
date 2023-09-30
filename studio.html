@@ -9,6 +9,7 @@ title: Studio Albums
     </td>
     <td style="width: 521px; vertical-align: top;">
         <h1 style="font-family: 'Arial Black', sans-serif; letter-spacing: 1px; text-align: center;">STUDIO ALBUMS</h1>
+        <div style="text-align: center;">Each album is available to listen to in your browser and also to download in MP3 format.</div>
             {% assign sorted = site.studio | sort: 'order' %}
             {% for studio in sorted %}
                     <h2 style="text-align: center;"><a href="{{ studio.url }}">{{ studio.title }}</a></h2>
