@@ -29,3 +29,5 @@ The art for the CD was supplied by Terry Towery. This is the back of the booklet
 Soundgarden ended up ripping us off ;-) on the art thing -- if you check out the booklet of <em>Superunknown</em>, you'll see they used the same idea, except they had money for color. Anyway, our photography was more interesting!
 
 How many times were the Twin Towers incidently or accidentally photographed?
+
+_Webmaster's note: Unfortunately, the Internet Archive does not have a copy of the liner notes and artwork for this album from the original website. If you have them (or a CD of this album), please [e-mail me](mailto:admin@dmlive.wiki)!_

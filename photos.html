@@ -5,6 +5,10 @@ title: Photos
 <tr>
     <td style="width: 691px; vertical-align: top; text-align: center;">
         <h1 style="font-family: 'Arial Black', sans-serif; letter-spacing: 1px; text-align: center;">PHOTOS</h1>
+        Do you have more photos, or even videos, of The Tone Unknown? Please <a href="mailto:admin@dmlive.wiki">email the webmaster</a> and get in touch!
+        <br>
+        <br>
+        <hr>
         <br>
         {% for image in site.data.photos %}
             <img src="/assets/images/photos/{{ image.name }}" {% if image.text %}alt="{{ image.text }}"{% else %}alt="No information for this photo."{% endif %}>
@@ -13,6 +17,7 @@ title: Photos
             {% else %}
             <br>
             {% endif %}
+            <hr>
             <br>
         {% endfor %}
     </td>
